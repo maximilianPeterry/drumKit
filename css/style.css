@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
-#bgImage {
-    
-    background: url("../drumKit.png");
-   /* background-color: #cccccc; */
-}
+
 #navBar {
-    background-color: aquamarine;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
     font-family: 'Pacifico', cursive;
 }
 #bodyContainer {
-    background-color: rgb(176, 243, 243);
+    background-color: aliceblue;
     display: flex;
-    height: 500px;
-    background-image: url('images/drumKit.png')
+    flex-direction: row;
+    height: 800px;
+    background-image: url("../images/drumKit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
