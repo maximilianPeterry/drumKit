@@ -19,7 +19,35 @@ const o = document.getElementById('o');
 
 // Play drum by keyboard press
 
-
+document.addEventListener('keypress', (e) => {
+    if (e.keyCode == 113) {
+        boom.play();
+    } else if
+        (e.keyCode == 119) {
+            clap.play();
+        } else if
+        (e.keyCode == 101) {
+            hihat.play();
+        } else if
+        (e.keyCode == 114) {
+            kick.play();
+        } else if
+        (e.keyCode == 116) {
+            openhat.play();
+        } else if
+        (e.keyCode == 121) {
+            ride.play();
+        } else if
+        (e.keyCode == 117) {
+            snare.play();
+        } else if
+        (e.keyCode == 105) {
+            tink.play();
+        } else if
+        (e.keyCode == 111) {
+            tom.play();
+        }
+})
 
 // Play music by mouse click
 
