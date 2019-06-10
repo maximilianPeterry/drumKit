@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
 
 #navBar {
     background-color: aliceblue;
@@ -10,9 +11,20 @@
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 800px;
     background-image: url("../images/drumKit.png");
     background-repeat: no-repeat;
     background-position: center;
     
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border-radius: 30%;
+    background-color: rosybrown;
+    font-family: 'Faster One', cursive;
+    font-size: 30px;
+    padding: 0;
 }
